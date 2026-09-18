@@ -21,7 +21,10 @@ export function generateStaticParams() {
 export const metadata: Metadata = {
   title: {
     template: '%s | Trakway Technologies',
-    default: 'Trakway Technologies'
+    default: 'Trakway Technologies – GPS Vehicle Tracking Solutions'
+  },
+  icons: {
+    icon: '/images/favicon.png'
   }
 };
 
@@ -49,7 +52,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} className={plusJakartaSans.variable}>
-      <body className="min-h-screen overflow-x-hidden bg-gray-50 antialiased">
+      <body className="min-h-screen overflow-x-hidden antialiased">
         <NextIntlClientProvider locale={locale as Locale} messages={messages}>
           <Header />
           <main className="mx-auto py-2">{children}</main>

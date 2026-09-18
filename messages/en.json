@@ -83,7 +83,9 @@
     "heading": "Products",
     "viewDetails": "View details",
     "addToCart": "Add to cart",
-    "outOfStock": "Out of stock"
+    "outOfStock": "Out of stock",
+    "allCategories": "All",
+    "comingSoon": "More products coming soon in this category."
   },
   "ProductDetails": {
     "backToProducts": "Back to products",
@@ -93,7 +95,16 @@
     "inStock": "In stock",
     "outOfStock": "Out of stock",
     "notFound": "Product not found",
-    "specifications": "Specifications"
+    "specifications": "Specifications",
+    "shippingNote": "Inclusive of all taxes · Free shipping across India",
+    "enquireNow": "Enquire Now",
+    "callUsNow": "Call Us Now",
+    "whatsappAria": "Chat with us on WhatsApp",
+    "featuresAndBenefits": "Features and Benefits",
+    "whatsInTheBox": "What's in the Box",
+    "packageAndSubscription": "Package Details & Subscription Fee",
+    "featureColumn": "Feature",
+    "detailsColumn": "Details"
   },
   "Footer": {
     "ctaHeadingLine1": "Ready to make a",

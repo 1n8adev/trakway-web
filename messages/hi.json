@@ -83,7 +83,9 @@
     "heading": "सभी उत्पाद",
     "viewDetails": "विवरण देखें",
     "addToCart": "कार्ट में जोड़ें",
-    "outOfStock": "स्टॉक में नहीं है"
+    "outOfStock": "स्टॉक में नहीं है",
+    "allCategories": "All",
+    "comingSoon": "More products coming soon in this category."
   },
   "ProductDetails": {
     "backToProducts": "उत्पादों पर वापस जाएं",
@@ -93,7 +95,16 @@
     "inStock": "स्टॉक में है",
     "outOfStock": "स्टॉक में नहीं है",
     "notFound": "उत्पाद नहीं मिला",
-    "specifications": "विशिष्टताएं"
+    "specifications": "विशिष्टताएं",
+    "shippingNote": "Inclusive of all taxes · Free shipping across India",
+    "enquireNow": "Enquire Now",
+    "callUsNow": "Call Us Now",
+    "whatsappAria": "Chat with us on WhatsApp",
+    "featuresAndBenefits": "Features and Benefits",
+    "whatsInTheBox": "What's in the Box",
+    "packageAndSubscription": "Package Details & Subscription Fee",
+    "featureColumn": "Feature",
+    "detailsColumn": "Details"
   },
   "Footer": {
     "ctaHeadingLine1": "एक सुरक्षित भविष्य",
