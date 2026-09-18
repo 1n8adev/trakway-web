@@ -133,6 +133,7 @@
     "newsletterButton": "தொடங்குங்கள்",
     "copyrightText": "© {year} Trakway Technologies Pvt. Ltd. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.",
     "privacyPolicy": "தனியுரிமைக் கொள்கை",
+    "dataSafety": "Data Safety",
     "termsConditions": "விதிமுறைகள் & நிபந்தனைகள்"
   },
   "Contact": {
@@ -169,5 +170,11 @@
     "chartTitle": "வாகனத் தொகுதி வளர்ச்சி",
     "chartLegend1": "சம்பவங்கள்",
     "chartLegend2": "கண்காணிக்கப்பட்ட வாகனங்கள்"
+  },
+  "PrivacyPolicy": {
+    "heading": "Privacy Policy"
+  },
+  "DataSafety": {
+    "heading": "Data Safety"
   }
 }

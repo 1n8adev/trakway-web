@@ -133,6 +133,7 @@
     "newsletterButton": "शुरू करें",
     "copyrightText": "© {year} Trakway Technologies Pvt. Ltd. सर्वाधिकार सुरक्षित।",
     "privacyPolicy": "गोपनीयता नीति",
+    "dataSafety": "Data Safety",
     "termsConditions": "नियम व शर्तें"
   },
   "Contact": {
@@ -169,5 +170,11 @@
     "chartTitle": "बेड़ा वृद्धि",
     "chartLegend1": "घटनाएँ",
     "chartLegend2": "ट्रैक किए गए वाहन"
+  },
+  "PrivacyPolicy": {
+    "heading": "Privacy Policy"
+  },
+  "DataSafety": {
+    "heading": "Data Safety"
   }
 }

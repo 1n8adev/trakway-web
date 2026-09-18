@@ -133,6 +133,7 @@
     "newsletterButton": "Get Started",
     "copyrightText": "© {year} Trakway Technologies Pvt. Ltd. All rights reserved.",
     "privacyPolicy": "Privacy Policy",
+    "dataSafety": "Data Safety",
     "termsConditions": "Terms & Condition"
   },
   "Contact": {
@@ -169,5 +170,11 @@
     "chartTitle": "Fleet Growth",
     "chartLegend1": "Incidents",
     "chartLegend2": "Vehicles Tracked"
+  },
+  "PrivacyPolicy": {
+    "heading": "Privacy Policy"
+  },
+  "DataSafety": {
+    "heading": "Data Safety"
   }
 }

@@ -22,10 +22,11 @@ export default function Footer() {
   const navLinks = [
     { label: t('navAboutUs'), href: '#' },
     { label: t('navTestimonials'), href: '/#testimonials' },
-    { label: t('navWorkWithUs'), href: '#' },
-    { label: t('navFaq'), href: '/#faq' },
-    { label: t('navTermsOfUse'), href: '#' },
-    { label: t('navLicensing'), href: '#' }
+    { label: t('navWorkWithUs'), href: '/#contact' },
+    // { label: t('navFaq'), href: '/#faq' },
+    // { label: t('privacyPolicy'), href: '/privacy-policy' },
+    // { label: t('dataSafety'), href: '/data-safety' },
+    
   ];
 
   return (
@@ -127,8 +128,12 @@ export default function Footer() {
               {t('copyrightText', { year: new Date().getFullYear() })}
             </p>
             <p>
-              <Link href="#" className="hover:text-white">
+              <Link href="/privacy-policy" className="hover:text-white">
                 {t('privacyPolicy')}
+              </Link>
+              {' | '}
+              <Link href="/data-safety" className="hover:text-white">
+                {t('dataSafety')}
               </Link>
               {' | '}
               <Link href="#" className="hover:text-white">
