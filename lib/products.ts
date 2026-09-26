@@ -581,6 +581,321 @@ export const products: Product[] = [
         ]
       }
     ]
+  },
+  {
+    id: 'Trakway-TW-300-GPS',
+    slug: 'trakway-tw-300-gps',
+    category: 'Asset Tracking',
+    price: 2799,
+    originalPrice: 5599,
+    currency: 'INR',
+    // TODO: swap in real gallery photography — same image repeated so the
+    // thumbnail carousel/autoplay has more than one frame to demo for now.
+    images: ['/images/products/tw-300/tw-300.png', '/images/products/tw-300/tw-300.png'],
+    stock: 24,
+    rating: { average: 4.6, count: 128 },
+    featured: true,
+    name: {
+      en: 'TW-300 Portable Asset GPS Tracker',
+      ta: 'கை வேலைப்பாடு மட்பாண்ட கோப்பை',
+      hi: 'हस्तनिर्मित मिट्टी का मग'
+    },
+    shortDescription: {
+      en: 'Asset GPS tracker vehicle tracking device with real-time tracking.',
+      ta: 'கை வேலைப்பாடு மட்பாண்ட கோப்பை',
+      hi: 'हस्तनिर्मित मिट्टी का मग'
+    },
+    description: {
+      en: 'The TW-300 portable Asset tracker designed to handle industrial and commercial applications ranging from rental agencies and fleet management to freight transportation and more. Featuring multiple positioning systems and a high-capacity battery, the TW-300 is ideal for persistent tracking of vehicles or cargo, and the device also supports remote monitoring of your assets via SMS or network.',
+      ta: 'கையால் வடிவமைக்கப்பட்ட மட்பாண்ட கோப்பை. ஒவ்வொன்றும் தனித்துவமான வடிவமைப்புடன் இருக்கும்.',
+      hi: 'हाथ से बना मिट्टी का मग। हर टुकड़ा अपने अनोखे ग्लेज़ पैटर्न के साथ अद्वितीय है।'
+    },
+    badge: ['2G GPS', 'All Types'],
+    features: [
+      {
+        position: 'top-1',
+        icon: 'location',
+        label: '10-Second Real-Time Updates',
+        description: 'Get fresh location updates every 10 seconds for precise, near real-time tracking.'
+      },
+      {
+        position: 'top-2',
+        icon: 'map',
+        label: 'Asset GNSS Tracker',
+        description: 'Multiple positioning systems keep cargo and assets located accurately anywhere.'
+      },
+      {
+        position: 'top-3',
+        icon: 'share',
+        label: 'Remote Update',
+        description: 'Configure and update the device remotely via SMS or network — no physical access needed.'
+      },
+      {
+        position: 'left-1',
+        icon: 'shield',
+        label: 'Tamper Alert',
+        description: 'Get notified instantly if the device is opened, removed, or tampered with.'
+      },
+      {
+        position: 'left-2',
+        icon: 'speed',
+        label: 'Precision Tracking',
+        description: 'High-accuracy positioning keeps your fleet, cargo or rental assets accounted for.'
+      },
+      {
+        position: 'left-3',
+        icon: 'phone',
+        label: '2G Connectivity',
+        description: 'Reliable GSM/2G network coverage for wide-area asset tracking.'
+      },
+      {
+        position: 'right-1',
+        icon: 'battery',
+        label: 'Wide Battery Working Mode',
+        description: 'Multiple power modes stretch battery life for long, unattended deployments.'
+      }
+    ],
+    highlights: [
+      'Live Tracking, Voice Monitoring, Magnetic',
+      'Android App, Ios App, PC',
+      'All Types',
+      'Battery Life 25-30 Days',
+      'GSM, GPS, LBS',
+      '1 Year Warranty'
+    ],
+    benefitsEyebrow: 'BUILT FOR ASSETS',
+    benefitsHeading: 'What the TW-300 Asset Tracker does',
+    benefitsSubheading: 'A portable, high-capacity tracker built for rental, freight and asset management.',
+    packageDetails: [
+      { label: 'Hardware Warranty', value: '1 Year' },
+      { label: 'App Software Access', value: 'Android App, iOS App, PC' },
+      { label: 'SIM Card Connectivity', value: 'Nano-SIM, GSM/2G network' },
+      {
+        label: 'Setup Guide',
+        value: 'Step-by-step activation instructions included in the box user manual.'
+      }
+    ],
+    boxContents: [
+      'Trakway Wireless GPS tracking unit',
+      'USB charging cable',
+      'User manual and step-by-step activation guide'
+    ],
+    specifications: [
+      {
+        title: 'GPS Specifications',
+        rows: [
+          { label: 'Positioning System', value: 'GPS+LBS' },
+          { label: 'Positioning accuracy', value: '<2.5m CEP' },
+          { label: 'GPS channel', value: '66' },
+          { label: 'Tracking sensitivity', value: '-165 dBm' },
+          { label: 'Acquisition', value: '-148dBm' },
+          { label: 'TTFF (open-sky)', value: 'Avg. hot start <1sec | Avg. cold start <32sec' }
+        ]
+      },
+      {
+        title: 'Network Specifications',
+        rows: [
+          { label: 'Network Type', value: 'GSM | 2G' },
+          { label: 'Supported Bands', value: 'B2/B3/B5/B8' },
+          { label: 'Data Transmission', value: 'TCP' },
+          { label: 'GPRS', value: 'Class 12' },
+          { label: 'Max Frequency Error', value: '±0.1ppm' },
+          { label: 'SIM Card', value: 'Nano-Sim' },
+          { label: 'LED Indication', value: 'GNSS (Blue), Cellular (Green), Power (White)' },
+          { label: 'Tamper Proof', value: 'Light sensor' }
+        ]
+      },
+      {
+        title: 'Physical Specifications',
+        rows: [
+          { label: 'Dimensions', value: '86.0 x 63.0 x 31.5mm' },
+          { label: 'Weight', value: '245g' },
+          { label: 'Color', value: 'Black' },
+          { label: 'IP Rating', value: 'IP66' }
+        ]
+      },
+      {
+        title: 'Operating Environment',
+        rows: [
+          { label: 'Working Modes', value: 'Mode 1: Regular GPS Mode | Mode 2: Tracking mode' },
+          { label: 'Operating Temperature', value: 'DC -20°C to 70°C' },
+          { label: 'Operating Humidity', value: '5%～95%, non-condensing' }
+        ]
+      },
+      {
+        title: 'Additional Features',
+        rows: [
+          {
+            label: 'Backup Battery',
+            value: '10,000mAh/3.7V industrial-grade Li-Polymer battery'
+          },
+          { label: 'Motion Sensor', value: '3-Axis Accelerometer' },
+          { label: 'Alarm Types', value: 'Low battery alert, Tamper alert' },
+          { label: 'Offline Memory Logs', value: '400 location packet' },
+          { label: 'Ideal Applications', value: 'Vehicle Rentals, Fleet Management, Logistics' },
+          {
+            label: '*',
+            value:
+              '* We reserve the right to the final interpretation of this page. All information is for reference only and is subject to change without further notice.'
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'Trakway-4G-Dashcam',
+    slug: 'trakway-4g-dashcam',
+    category: '4G Dash Camera',
+    price: 2799,
+    originalPrice: 5599,
+    currency: 'INR',
+    // TODO: swap in real gallery photography — same image repeated so the
+    // thumbnail carousel/autoplay has more than one frame to demo for now.
+    images: ['/images/products/tw-dashcam/tw-dashcam.png', '/images/products/tw-dashcam/tw-dashcam2.png'],
+    stock: 24,
+    rating: { average: 4.6, count: 128 },
+    featured: true,
+    name: {
+      en: '4G WiFi Dual Dashcam',
+      ta: 'கை வேலைப்பாடு மட்பாண்ட கோப்பை',
+      hi: 'हस्तनिर्मित मिट्टी का मग'
+    },
+    shortDescription: {
+      en: 'Live-streaming 4G dual dashcam with GPS tracking.',
+      ta: 'கை வேலைப்பாடு மட்பாண்ட கோப்பை',
+      hi: 'हस्तनिर्मित मिट्टी का मग'
+    },
+    description: {
+      en: 'A 4G WiFi dash cam connects to the internet using a cellular SIM card, letting you watch live video of your car from your phone anywhere.',
+      ta: 'கையால் வடிவமைக்கப்பட்ட மட்பாண்ட கோப்பை. ஒவ்வொன்றும் தனித்துவமான வடிவமைப்புடன் இருக்கும்.',
+      hi: 'हाथ से बना मिट्टी का मग। हर टुकड़ा अपने अनोखे ग्लेज़ पैटर्न के साथ अद्वितीय है।'
+    },
+    badge: ['4G WiFi', 'Dual Camera'],
+    features: [
+      {
+        position: 'top-1',
+        icon: 'share',
+        label: 'Remote Live View',
+        description: 'Stream real-time footage over cellular data without needing your phone nearby.'
+      },
+      {
+        position: 'top-2',
+        icon: 'location',
+        label: 'Real-Time GPS Tracking',
+        description: "Monitor your car's exact location, speed, and past routes via the Trakway app."
+      },
+      {
+        position: 'top-3',
+        icon: 'bell',
+        label: 'Smart Alerts',
+        description: 'Get instant phone notifications if your parked car is hit or moves.'
+      },
+      {
+        position: 'left-1',
+        icon: 'share',
+        label: 'Local WiFi',
+        description:
+          'Connect your phone directly to the camera at short range to download files quickly without using mobile data.'
+      },
+      {
+        position: 'left-2',
+        icon: 'history',
+        label: '2K Front + 1080p Rear Cameras',
+        description: 'Capture razor-sharp footage of every drive, front and back.'
+      },
+      {
+        position: 'left-3',
+        icon: 'shield',
+        label: 'Extreme-Condition Engineering',
+        description: 'Rugged build handles heat, cold, dust, and vibration with ease.'
+      },
+      {
+        position: 'right-1',
+        icon: 'phone',
+        label: 'Integrated 2-Way Voice Calling',
+        description: "Talk hands-free through the dashcam's built-in mic & speaker."
+      },
+      {
+        position: 'right-2',
+        icon: 'history',
+        label: 'Expandable Storage',
+        description: 'Supports high-capacity storage for marathon recording sessions.'
+      },
+      {
+        position: 'right-3',
+        icon: 'drop',
+        label: 'Infrared Night Vision',
+        description: 'Advanced IR sensors keep your footage clear, even in zero light.'
+      },
+      {
+        position: 'bottom-1',
+        icon: 'alert',
+        label: 'Smart SOS Alerts',
+        description: 'Automatic notifications to preset contacts in an emergency.'
+      },
+      {
+        position: 'bottom-2',
+        icon: 'share',
+        label: 'On-Board Wi-Fi Hotspot',
+        description: 'Keep devices online wherever the road takes you.'
+      },
+      {
+        position: 'bottom-3',
+        icon: 'key',
+        label: 'Low-Profile, Plug-and-Play Setup',
+        description: 'Sleek design with simple mounting for quick installs.'
+      }
+    ],
+    highlights: [
+      '2K Front + 1080p Rear Cameras',
+      'Real-Time GPS Tracking',
+      'Infrared Night Vision',
+      'On-Board Wi-Fi Hotspot',
+      '2-Way Voice Calling',
+      'Smart SOS Alerts'
+    ],
+    benefitsEyebrow: 'BUILT TO WATCH THE ROAD',
+    benefitsHeading: 'What the 4G WiFi Dual Dashcam does',
+    benefitsSubheading: 'A connected dual dashcam with live streaming, GPS tracking and driver safety alerts.',
+    packageDetails: [
+      { label: 'Hardware Warranty', value: '1 Year' },
+      { label: 'App Software Access', value: 'Trakway App (Android & iOS)' },
+      { label: 'SIM Card Connectivity', value: 'Requires an active 4G SIM card (sold separately)' },
+      {
+        label: 'Setup Guide',
+        value: 'Step-by-step activation instructions included in the box user manual.'
+      }
+    ],
+    boxContents: [
+      'Trakway 4G Dashcam unit',
+      'USB charging Power cable',
+      'Extension Cable for secondary camera',
+      'User manual and step-by-step activation guide'
+    ],
+    specifications: [
+      {
+        title: 'ADAS – Advanced Driver Assistance (Watches the Road Ahead)',
+        rows: [
+          { label: 'Lane Departure Warning', value: 'Drifting out of lane' },
+          { label: 'Forward Collision Warning', value: 'Closing too fast' },
+          { label: 'Pedestrian Warning', value: 'Person detected ahead' },
+          { label: 'Following Distance', value: 'Unsafe headway' },
+          { label: 'Speeding Alert', value: 'Over the limit' },
+          { label: 'Unsafe Driving Alerts', value: 'Harsh brake / accel / turn' }
+        ]
+      },
+      {
+        title: 'DMS – Driver Monitoring System (Watches the Cabin & Driver)',
+        rows: [
+          { label: 'Driver Fatigue', value: 'Drowsiness / eyes closing' },
+          { label: 'Smoking Detection', value: 'Cigarette in cabin' },
+          { label: 'Phone Usage', value: 'Handling a phone' },
+          { label: 'Distraction Detection', value: 'Eyes off road' },
+          { label: 'Seat Belt Detection', value: 'Belt not worn' },
+          { label: 'Camera Obstruction', value: 'Lens blocked / covered' }
+        ]
+      }
+    ]
   }
 ];
 
